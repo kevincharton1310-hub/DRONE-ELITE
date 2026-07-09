@@ -1,0 +1,29 @@
+# ====== DRONE ELITE - FICHIERS À IGNORER ======
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dépendances
+node_modules/
+package-lock.json
+
+# Build et distribution
+dist/
+build/
+
+# Fichiers de configuration privés
+.env
+.env.local
+
+# Fichiers temporaires
+*.tmp
+*.temp
